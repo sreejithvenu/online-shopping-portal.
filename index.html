@@ -7,11 +7,125 @@
       <meta name="author" content="sreejithvenu">
       <link rel="shortcut icon" href="images/favicon.png">
       <link rel="stylesheet" href="style.css">
-      
+
       <title>Online Shopping Portal</title>
+    
+      <style>
+          body{
+              margin:0;
+          }
+          .menu {
+              width: 100%;
+              overflow: auto;
+           
+              }
+              .menu ul {
+                  margin: 0;
+                  padding: 0;
+                  list-style: none;
+                  line-height: 35px;
+              }
+              .menu li{
+                  float:left;
+              }
+              .menu ul li a{
+              width:130px;
+              text-decoration:none;
+              display:block;
+              text-align:center;
+              font-size:21px;
+              letter-spacing:0.5px;
+              }
+              .menu li a:hover{
+                  opacity:0.5;
+                  font-size:19px;
+              }
+              .search-form{
+                  margin-top:15px;
+                  float:right;
+                  margin-right:190px;
+
+              }
+              input[type=text]{
+                  padding:8px;
+                  width:320px;
+                  border:none;
+                  font-size:16px;
+                 
+              }
+              button{
+                  float:right;
+                  border-radius:0 10px 10px 0;
+                  cursor:pointer;
+                  position:relative;
+                  padding:8px;
+                  border:none;
+                  font-size:16px;
+              }
+          #phone {
+              position: relative;
+              margin-top: 318px;
+              float: left;
+              margin-left: 91px;
+              border: none;
+          }
+          #tablets {
+              position: relative;
+              margin-top: 318px;
+              float: left;
+              margin-left: 40px;
+              border: none;
+          }
+          #Laptops {
+              position: relative;
+              margin-top: 318px;
+              float: left;
+              margin-left: 30px;
+              border: none;
+          }
+          #insta {
+              position: relative;
+              margin-top: 630px;
+              float: right;
+              margin-right: 89px;
+              border: none;
+          }
+          #fb {
+              position: relative;
+              margin-top: 630px;
+              float: right;
+              margin-right: -117px;
+              border: none;
+          }
+      </style>
+
   </head>
-  <body>
+  <body style="background-image:url('main.jpeg');height:100%;center;background-repeat:no-repeat;background-size:cover;">
       <!-- Your code goes here -->
       <script src="script.js"></script>
+      <nav class="menu">
+          <ul>
+
+              <li style="position:absolute;top:18px;left:25%"><a href="HOME.html">About</a></li>
+              <li style="position:absolute;top:18px;left:35%"><a href="services.html">Services</a></li>
+              <li style="position:absolute;top:18px;left:45%"><a href="https://www.apple.com/in/store">Product</a></li>
+              <li style="position:absolute;top:18px;left:55%"><a href="https://www.apple.com/in/store">Search</a></li>
+
+          </ul>
+          <form class="search-form">
+              <button>Search</button>
+              <input width="1" type="text" placeholder="search here" />
+
+          </form>
+
+      </nav>
+
+      <a href="https://www.apple.com/in/shop/buy-iphone"><input id="phone" type="image" src="F:\program\online-shopping-portal\assets\icons\images\unsplash_B2w4rdIihEo.jpg" name="submit" width="170" height="110" alt="submit" /></a>
+      <a href="https://www.apple.com/in/ipad/"><input id="tablets" type="image" src="F:\program\online-shopping-portal\assets\icons\images\unsplash_7OFnb7NOvjw.jpg" name="submit" width="170" height="110" alt="submit" /></a>
+      <a href="https://www.apple.com/in/mac/"><input id="Laptops" type="image" src="F:\program\online-shopping-portal\assets\icons\images\unsplash_1SAnrIxw5OY.jpg" name="submit" width="170" height="110" alt="submit" /></a>
+
+      <a href="https://www.instagram.com/"><input id="insta" type="image" src="F:\program\online-shopping-portal\assets\icons\Group.svg" name="submit" width="50" height="50" alt="submit" /></a>
+      <a href="https://www.facebook.com/"><input id="fb" type="image" src="F:\program\online-shopping-portal\assets\icons\Group 4.svg" name="submit" width="48" height="48" alt="submit" /></a>
+
   </body>
   </html>
